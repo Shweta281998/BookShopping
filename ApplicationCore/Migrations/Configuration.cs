@@ -20,8 +20,8 @@ namespace ApplicationCore.Migrations
             context.Categories.Add(c1);
             context.Categories.Add(c2);
 
-            Role r1 = new Role { Name = "Admin", Descrption = "Administrator" };
-            Role r2 = new Role { Name = "User", Descrption = "End User" };
+            Role r1 = new Role { Name = "Admin", Description = "Administrator" };
+            Role r2 = new Role { Name = "User", Description = "End User" };
 
             User user1 = new User
             {

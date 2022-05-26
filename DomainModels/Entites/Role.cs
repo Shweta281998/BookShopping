@@ -26,11 +26,11 @@ namespace DomainModels.Entites
         [Column(TypeName = "varchar")]
         [StringLength(250)]
         [Required]
-        public string Descrption { get; set; }
+        public string Description { get; set; }
 
         public DateTime createdDate { get; set; }
 
-        public DateTime? UpdatedDate { get; set; }
+        public DateTime? UpdateDate { get; set; }
 
         public virtual ICollection<User> Users { get; set; }
     }
